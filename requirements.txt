@@ -1,0 +1,8 @@
+langchain==0.3.23
+langgraph==0.3.31
+requests==2.32.3
+python-dotenv==1.1.0
+openai==0.27.0
+transformers==4.27.1
+torch  # Add PyTorch for Hugging Face model usage
+prettytable
