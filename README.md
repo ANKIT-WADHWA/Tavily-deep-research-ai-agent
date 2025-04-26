@@ -98,10 +98,9 @@ python main.py
 ---
 
 ## ✅ Example Output
-
-```
+---
 ## Description
-```
+---
 ### 1
 Add query after running python main.py
 ![Query Input](Output_images/1.png)
