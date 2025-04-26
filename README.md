@@ -37,10 +37,9 @@ flowchart TD
     A --> F(requirements.txt)
     A --> G(README.md)
 
----
+```
 
 ## 📁 Folder Structure
-
 ```
 researchflow/
 │
@@ -102,12 +101,12 @@ python main.py
 
 ```
 ## Description
-Add query after running python main.py
-
-![Query Input](Output_images/1.png)
 ```
+### 1
+Add query after running python main.py
+![Query Input](Output_images/1.png)
 
-### 2️⃣ Gmail Preview
+### 2️
 Ranked Article based on Relevance Score:
 ![Articles](Output_images/2.png)
 ---
