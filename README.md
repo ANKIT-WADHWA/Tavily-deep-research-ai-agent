@@ -1,4 +1,5 @@
-# 🧠 AI Deep Research Agent System
+# AI agent-based Deep Research
+
 
 
 
@@ -55,7 +56,7 @@ researchflow/
 
 ---
 
-## ⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 
 1. **Clone the repository**
    ```bash
@@ -77,7 +78,6 @@ researchflow/
 
 ---
 
-##  Usage
 
 ### Run the pipeline
 
@@ -85,16 +85,16 @@ researchflow/
 python main.py
 ```
 
-This script will:
+## This script will:
 - Crawl websites using the Tavily API to gather search results based on a given query.
 
 - Summarize and score content using HuggingFace's BART model for summarization and a basic relevance score based on query matching.
 
--Ingest the results into LangGraph for structured data processing and organization into states for further handling.
+- Ingest the results into LangGraph for structured data processing and organization into states for further handling.
 
--Retrieve relevant articles based on the query, sort them by relevance score, and display the most valuable content.
+- Retrieve relevant articles based on the query, sort them by relevance score, and display the most valuable content.
 
--Draft a final answer by combining the best summaries from the ranked articles into a comprehensive response.
+- Draft a final answer by combining the best summaries from the ranked articles into a comprehensive response.
 
 ---
 
